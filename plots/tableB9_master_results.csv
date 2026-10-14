@@ -1,0 +1,7 @@
+class,baseline_rate,best_cluster,cluster_size,cluster_purity_for_class,lift,top_terms
+astro-ph.CO,31.1%,17,611,77.7%,+46.7%,"brane, bulk, dimensional, branes, world"
+astro-ph.SR,32.6%,20,1046,70.3%,+37.6%,"white, dwarf, dwarfs, mass, wd"
+astro-ph.GA,13.0%,15,436,27.3%,+14.3%,"qsos, qso, redshift, galaxies, sample"
+astro-ph.IM,12.2%,16,695,26.9%,+14.7%,"frequency, qpo, qpos, hz, oscillations"
+astro-ph.HE,6.4%,19,1239,28.3%,+22.0%,"grb, afterglow, burst, ray, optical"
+astro-ph.EP,4.7%,36,2593,35.2%,+30.5%,"planets, planet, orbital, period, hd"

@@ -1,0 +1,4 @@
+approach,accuracy_or_rate
+Random guessing (uniform),16.7%
+Always guess majority class,32.6%
+Best cluster per class (this method),44.3% (avg across classes)

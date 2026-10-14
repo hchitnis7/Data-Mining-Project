@@ -1,0 +1,7 @@
+cluster,size,majority_class,purity,lift
+0,84,math.NA,1.0,0.0
+1,411,math.NA,1.0,0.0
+2,255,math.NA,1.0,0.0
+3,172,math.NA,1.0,0.0
+4,70,math.NA,1.0,0.0
+5,243,math.NA,1.0,0.0

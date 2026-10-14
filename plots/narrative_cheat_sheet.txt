@@ -1,0 +1,37 @@
+SHORTLIST AND CHEAT SHEET FOR ORAL EXAM
+======================================================================
+
+Narrative order:
+1. astro-ph.CO (cluster 17, brane-world/extra-dimensional vocabulary) - highest purity (77.7%), clean theoretical vocabulary, easy to explain to a non-technical audience.
+2. astro-ph.SR (cluster 20, white dwarf/compact object vocabulary) - second-strongest, large enough sample (1,046 papers) to feel robust.
+3. astro-ph.EP (cluster 36, exoplanet vocabulary) - best example of 'rare class, strong relative signal' (+30.5pp lift despite only 4.7% baseline).
+4. astro-ph.IM (weakest result) - present as the counter-example that sharpens the claim: methodological categories don't have their own vocabulary, so the method's failure mode is itself informative.
+
+Definitions:
+
+Purity:
+  Fraction of a cluster's papers belonging to that cluster's majority class. Higher = the cluster is more 'pure' (internally consistent).
+
+Lift over baseline:
+  Purity minus the overall base rate of that class in the full dataset. Measures how much better than random guessing the cluster is.
+
+Baseline / majority-class guessing:
+  The accuracy you'd get by always predicting the most common class, with no model at all - the floor any real method must beat.
+
+TF-IDF:
+  Term Frequency-Inverse Document Frequency: weights words by how distinctive they are to a document relative to the whole corpus, down-weighting common words.
+
+TruncatedSVD:
+  Dimensionality reduction (like PCA but works on sparse data without centering) used to compress the TF-IDF matrix before clustering.
+
+K-Means:
+  Clustering algorithm that partitions points into k groups by minimizing distance to each group's centroid. Requires choosing k in advance (see Task 2).
+
+Permutation test:
+  Null-hypothesis test: shuffle the labels many times, recompute the result each time, and see how often chance alone produces something as extreme as what was actually observed. Low p-value = unlikely to be chance.
+
+Bootstrap confidence interval:
+  Resampling the data (with replacement) many times to estimate how much a statistic (like purity) would vary if we'd drawn a different sample - gives a plausible range, not just one number.
+
+future_subcat (author-history proxy):
+  Since old papers weren't retroactively relabeled, we infer the 'ground truth' subfield of a pre-2009 paper from what subcategory its authors predominantly published in after 2009.
