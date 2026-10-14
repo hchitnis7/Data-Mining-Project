@@ -1,0 +1,35 @@
+{
+  "input": "C:\\Users\\ellio\\Downloads\\Data mining\\author_validation\\results\\astroph_pre_with_future_labels_new.parquet",
+  "output": "C:\\Users\\ellio\\Downloads\\Data mining\\text_representation\\results_new_labels",
+  "sample": 15000,
+  "k": 40,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "min_cluster_size": 50,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": null,
+  "device": "cpu",
+  "batch_size": 32,
+  "threads": 4,
+  "sample_actual": 15000,
+  "train_size": 12000,
+  "test_size": 3000,
+  "truncated_abstracts": 6057,
+  "max_seq_length": 256,
+  "resolved_model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_cache": "embeddings_9b1d59116372b0d16ee3a6a56418c2e8554fc1947cdfd6f0cc68081100f28f58.npy",
+  "embedding_seconds": 890.2201303000002,
+  "tfidf_seconds": 8.983077899998534,
+  "svd_components": 300,
+  "svd_explained_variance": 0.3439013659954071,
+  "packages": {
+    "sentence-transformers": "6.1.0",
+    "torch": "2.14.1",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6"
+  }
+}
